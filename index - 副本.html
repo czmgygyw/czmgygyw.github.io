@@ -16,10 +16,10 @@
  
     .card {
         flex: 1;
-        min-width: 26%;
+        min-width: 20%;
         max-width: calc(33.3% - 40px);
-        height: 200px;
-        margin: 30px 10px;
+        height: 300px;
+        margin: 10px 10px;
         position: relative;
         padding: 10px;
         box-shadow: 0 2px 5px 0 #999;
@@ -59,12 +59,20 @@
     </div>
 </body>
 <script>
+//srchttps://www.jqhtml.com/39171.html
 const htmlArr = [
-    { title: '示例1-风景', src: 'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2756575517,833879878&fm=200&gp=0.jpg' },
-    { title: '示例2-风景', src: 'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=328517395,2303970886&fm=26&gp=0.jpg' },
-    { title: '示例3-风景', src: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1554369684535&di=1c1dbfbd4545ad0a05e12cbbbfe3eeef&imgtype=0&src=http%3A%2F%2Fpic41.nipic.com%2F20140601%2F18681759_143805185000_2.jpg' },
-    { title: '示例4-风景', src: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1554369684534&di=d6e34af6fce6564f9df6c4eecc27d2ce&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimgad%2Fpic%2Fitem%2F4d086e061d950a7b9138ff1000d162d9f3d3c9d1.jpg' },
-    { title: '示例5-风景', src: 'https://image.baidu.com/search/detail?ct=503316480&z=undefined&tn=baiduimagedetail&ipn=d&word=js%E6%80%8E%E4%B9%88%E8%AE%A9%E7%94%B5%E8%84%91%E5%8F%91%E5%87%BA%E5%A3%B0%E9%9F%B3&step_word=&ie=utf-8&in=&cl=2&lm=-1&st=undefined&hd=undefined&latest=undefined&copyright=undefined&cs=2077791514,3883746285&os=1550382259,2953793489&simid=0,0&pn=61&rn=1&di=160300&ln=1380&fr=&fmq=1608213592109_R&fm=&ic=undefined&s=undefined&se=&sme=&tab=0&width=undefined&height=undefined&face=undefined&is=0,0&istype=0&ist=&jit=&bdtype=11&spn=0&pi=0&gsm=1e&objurl=http%3A%2F%2Fimagev2.xmcdn.com%2Fgroup68%2FM09%2FED%2FF3%2FwKgMeF3VLFvzhsWmAAAwLjUFy-g342.jpg%2521strip%3D1%26amp%3Bquality%3D7%26amp%3Bmagick%3Djpg%26amp%3Bop_type%3D5%26amp%3Bupload_type%3Dcover%26amp%3Bname%3Dweb_large%26amp%3Bdevice_type%3Dios&rpstart=0&rpnum=0&adpicid=0&force=undefined' },
+    { title: '', src: './image/1.jpg' },
+    { title: '', src: './image/2.jpg' },
+    { title: '', src: './image/3.jpg' },
+    { title: '', src: './image/4.jpg' },
+    { title: '', src: './image/5.jpg' },
+    { title: '', src: './image/6.jpg' },
+    { title: '', src: './image/7.jpg' },
+    { title: '', src: './image/8.jpg' },
+    { title: '', src: './image/9.jpg' },
+    { title: '', src: './image/10.jpg' },
+    { title: '', src: './image/11.jpg' },
+    { title: '', src: './image/12.jpg' },
 ]
  
 let fromDom = null,
@@ -90,6 +98,7 @@ function handleDragEnd(e,dom){
     dom.style.border = "2px dashed transparent";
     dom.style.opacity = "";
     toDom = null;
+    // alert(1);
 }
 function handleDragEnter(e, dom) {
     toDom = dom;
