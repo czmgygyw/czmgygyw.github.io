@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>个人网站</title>
+    <link>https://example.org/</link>
+    <description>Recent content on 个人网站</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 15 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>佛家智慧：缘起性空</title>
+      <link>https://example.org/chinese-philosophy/buddhism-wisdom/</link>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.org/chinese-philosophy/buddhism-wisdom/</guid>
+      <description>引言 佛教哲学是中国传统文化的重要组成部分。其中，缘起性空是佛法的核心思想。&#xA;缘起论 &amp;ldquo;缘起&amp;quot;是指一切事物都是因缘和合而生。简单来说：&#xA;一切现象都有其原因和条件 没有事物是独立存在的 事物之间相互依存、相互联系 性空义 &amp;ldquo;性空&amp;quot;并不意味着虚无，而是指一切事物没有固定不变的自性。理解为：&#xA;无常：一切都在变化之中 无我：没有永恒不变的自我 空性：一切法的本质是空 日常生活中的应用 佛家智慧可以帮助我们：&#xA;面对挫折：了解事物无常，就不会过于执着 处理人际关系：明白缘起缘灭，保持平常心 内心平静：不被外境所转 经典语录 一切有为法，如梦幻泡影，如露亦如电，应作如是观。&#xA;这句话告诉我们，世间一切都在不断变化，我们应该以超脱的心态面对生活。&#xA;结语 佛家思想教会我们用智慧的眼光看待世界，用平和的心态面对人生的起伏。</description>
+    </item>
+    <item>
+      <title>儒家思想的核心：仁与礼</title>
+      <link>https://example.org/chinese-philosophy/rujia-thought/</link>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.org/chinese-philosophy/rujia-thought/</guid>
+      <description>引言 儒家思想作为中国传统文化的核心，强调人与人之间的和谐关系。仁和礼是儒家思想的两大支柱。&#xA;仁的含义 孔子说：&amp;ldquo;仁者爱人&amp;rdquo;。仁的核心是关爱他人，包括：&#xA;孝顺父母 尊敬长辈 关爱朋友 仁政爱民 礼的作用 礼不仅是外在的礼仪规范，更是内在品德的外在表现。礼的作用包括：&#xA;维护社会秩序 规范人际关系 培养个人品德 促进社会和谐 仁与礼的关系 仁是内在的道德情感，礼是外在的行为规范。二者相辅相成：&#xA;没有仁，礼就变成虚假的形式 没有礼，仁就无法得到表达 现代应用 在现代社会，儒家思想仍然具有重要意义：&#xA;构建和谐社会 培养道德品质 重视家庭教育 提倡尊老爱幼 结语 儒家思想为我们提供了处理人与人关系的智慧，帮助我们在现代社会中建立良好的人际网络。</description>
+    </item>
+    <item>
+      <title>《道德经》第一章：道可道，非常道</title>
+      <link>https://example.org/chinese-philosophy/daodejing-chapter1/</link>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.org/chinese-philosophy/daodejing-chapter1/</guid>
+      <description>引言 《道德经》是道家思想的经典之作，开篇即提出了一个深刻的问题：什么是&amp;quot;道&amp;quot;？&#xA;原文 道可道，非常道；名可名，非常名。 无名天地之始，有名万物之母。&#xA;解读 老子认为，&amp;ldquo;道&amp;quot;是宇宙万物的根本原理，但它超越了人类语言的表达能力。凡是可以用语言描述的道，都不是永恒不变的&amp;quot;道&amp;rdquo;。&#xA;这体现了中国古代哲学中对无形与有形、抽象与具体的深刻认识。&#xA;现代意义 在现代社会中，这段话提醒我们：&#xA;有些真理是无法用言语完全表达的 保持谦逊和敬畏之心 追求本质而非表象 结语 《道德经》的开篇为我们打开了一扇通向智慧的大门，引导我们思考宇宙、人生和自然的根本问题。</description>
+    </item>
+  </channel>
+</rss>

@@ -1,166 +1,136 @@
 <!DOCTYPE html>
-<html>
- 
+<html lang="zh-cn">
 <head>
-    <title></title>
+	<meta name="generator" content="Hugo 0.123.7">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网站 - 个人网站</title>
     <style>
-    body {
-        margin: 0;
-    }
- 
-    .box {
-        display: flex;
-        justify-content: flex-start;
-        flex-wrap: wrap;
-    }
- 
-    .card {
-        flex: 1;
-        min-width: 20%;
-        max-width: calc(33.3% - 40px);
-        height: 300px;
-        margin: 10px 10px;
-        position: relative;
-        padding: 10px;
-        box-shadow: 0 2px 5px 0 #999;
-        border-radius: 5px;
-        border: 2px dashed transparent;
-    }
- 
-    .card-name {
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        line-height: 20px;
-        height: 20px;
-    }
- 
-    .card-img {
-        position: relative;
-        padding-top: 20px;
-        box-sizing: border-box;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-    }
-    .card-img img {
-        width: 100%;
-        height: 100%;
-    }
- 
-    .dragging-over * {
-        pointer-events: none;
-    }
-     .news_title {
-        font: normal 18px/28px "Microsoft YaHei";
-        font-size: 55px;
-        font-weight: bold;
-        color: black;
-    }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2rem;
+        }
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+            background-color: #2c3e50;
+            color: white;
+        }
     </style>
 </head>
- 
 <body>
-    <div class="box">
-    </div>
-  <br><br><br><br><br><br>
- <a class="news_title" href="./1.html">ANSWER</a>
+    <header>
+        <h1>个人网站</h1>
+    </header>
+    <main>
+        
+<style>
+    .hero {
+        text-align: center;
+        padding: 3rem 0;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 2rem;
+    }
+    .hero h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    .hero p {
+        font-size: 1.2rem;
+        opacity: 0.9;
+    }
+    .cards-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+    .card {
+        background: white;
+        border-radius: 10px;
+        padding: 2rem;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        cursor: pointer;
+        text-decoration: none;
+        color: inherit;
+        display: block;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    }
+    .card-icon {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        display: block;
+    }
+    .card h3 {
+        color: #2c3e50;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .card p {
+        color: #666;
+        line-height: 1.6;
+    }
+    .card-1 .card-icon { color: #e74c3c; }
+    .card-2 .card-icon { color: #3498db; }
+    .card-3 .card-icon { color: #2ecc71; }
+</style>
+
+<div class="hero">
+    <h2>欢迎来到我的个人网站</h2>
+    <p>探索哲学思想与技术实践的融合</p>
+</div>
+
+<div class="cards-container">
+    <a href="/chinese-philosophy" class="card card-1">
+        <span class="card-icon">☯</span>
+        <h3>中国哲学</h3>
+        <p>探索儒家、道家、佛家等中国传统哲学思想，品味千年智慧。</p>
+    </a>
+    
+    <a href="/western-philosophy" class="card card-2">
+        <span class="card-icon">🏛</span>
+        <h3>西方哲学</h3>
+        <p>了解古希腊哲学、现代哲学等西方哲学流派的思想精华。</p>
+    </a>
+    
+    <a href="/technology" class="card card-3">
+        <span class="card-icon">⚡</span>
+        <h3>技术沉淀</h3>
+        <p>记录技术学习与实践的历程，分享技术心得与项目经验。</p>
+    </a>
+</div>
+
+    </main>
+    <footer>
+        <p>&copy; 2026 个人网站. All rights reserved.</p>
+    </footer>
 </body>
-<script>
-//srchttps://www.jqhtml.com/39171.html
-const htmlArr = [
-    { title: '', src: './image/1.jpg' },
-    { title: '', src: './image/2.jpg' },
-    { title: '', src: './image/3.jpg' },
-    { title: '', src: './image/4.jpg' },
-    { title: '', src: './image/5.jpg' },
-    { title: '', src: './image/6.jpg' },
-    { title: '', src: './image/7.jpg' },
-    { title: '', src: './image/8.jpg' },
-    { title: '', src: './image/9.jpg' },
-    { title: '', src: './image/10.jpg' },
-    { title: '', src: './image/11.jpg' },
-    { title: '', src: './image/12.jpg' },
-]
- 
-let fromDom = null,
-    toDom = null,
-    lastDom = null;
- 
-function handleDragStart(e, dom) {
-    lastDom = fromDom = dom;
-    dom.style.border = "2px dashed #999";
-    dom.style.opacity = 0.4;
-}
- 
-function handleDrop(e, dom) {
-    //只有在可放置的元素上面松开鼠标才会触发drop事件
-    console.log('drop');
-    dom.style.opacity = "";
-    fromDom = null;
-    toDom = null;
-}
-function handleDragEnd(e,dom){
-    //拖拽时松开鼠标就会会触发dragend事件
-    console.log('end');
-    dom.style.border = "2px dashed transparent";
-    dom.style.opacity = "";
-    toDom = null;
-    // alert(1);
-}
-function handleDragEnter(e, dom) {
-    toDom = dom;
-    if(fromDom == lastDom){
-        //第一次调换
-        swapDom(lastDom, toDom);
-        lastDom = toDom;
-    }else{
-        //第N+1次调换，要先把上一个div的东西还原回去，再跟第三个div互换
-        //这个防止enter多次触发
-        if(lastDom == toDom){return;}
-        swapDom(fromDom,lastDom);
-        swapDom(fromDom,toDom);
-        lastDom = toDom;
-    }
-}
-function handleDragOver(e, dom) {
-    //默认无法把元素放置到其他元素当中，所以需要prevent
-    e.preventDefault();
-    e.dataTransfer.effectAllowed = "move";
-}
- 
-function swapDom(a, b) {
-        //a和b的innerHTML互换
-    let temp = a.innerHTML;
-    a.innerHTML = b.innerHTML;
-    b.innerHTML = temp;
-}
- 
-//生成dom结构
-function createDom(arr) {
-    let body = document.getElementsByClassName('box')[0];
-    let html = [];
-    for (let i = 0, len = arr.length; i < len; i++) {
-        html.push(template(arr[i].title, arr[i].src));
-    }
-    body.innerHTML = html.join('');
-}
- 
-//html模板，根据该模板动态生成dom节点
-function template(title, src) {
-    let tpl = `<div class="card" draggable="true" ondragstart="handleDragStart(event,this)" ondragover="handleDragOver(event,this)" ondragend="handleDragEnd(event,this)" ondrop="handleDrop(event,this)" ondragenter="handleDragEnter(event,this)">
-            <span class="card-name">
-                ${title}
-            </span>
-            <div class="card-img">
-                <img src="${src}" draggable="false" alt="">
-            </div>
-        </div>`
-    return tpl;
-}
-window.onload = function() {
-    createDom(htmlArr);
-}
-</script>
- 
 </html>
